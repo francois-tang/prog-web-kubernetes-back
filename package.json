@@ -1,0 +1,28 @@
+{
+  "name": "kubernetes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francois-tang/prog-web-kubernetes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francois-tang/prog-web-kubernetes/issues"
+  },
+  "homepage": "https://github.com/francois-tang/prog-web-kubernetes#readme",
+  "dependencies": {
+    "config": "^3.3.9",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-rate-limit": "^6.7.0",
+    "nodemon": "^2.0.22"
+  }
+}
